@@ -1,0 +1,23 @@
+<html>
+    <head> 
+        <script>
+            function bigimg(x)
+            {
+                x.style.height="128px";
+                x.style.width="128px";
+            }
+            function normalimg(x)
+            {
+                x.style.height="32px";
+                x.style.width="128px";
+            }
+            </script>
+    </head>
+    <body>
+        <img src="loc.jpg" onmouseover="bigimg(this)"
+                           onmouseout="normalimg(this)"
+                           border ="1" width="32" height="32">
+        <p>the function bigimg()is triggered when the user moves the mouse pointer over the img</p>
+        <p>the function normalimg() is triggered when mouse pointer is moved</p>                   
+    </body>
+</html>
